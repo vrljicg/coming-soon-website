@@ -27,7 +27,7 @@ img {
     margin-right: auto;
 }
 
-  @-webkit-keyframes fadeIn {
+@-webkit-keyframes fadeIn {
     from {top: 20%; opacity: 0;}
     to {top: 100; opacity: 1;}
     
