@@ -5,6 +5,7 @@ body {
     color: #ffffff;
     background-size: 200% 200%;
     animation: animate 5s linear infinite;
+    zoom: 130%;
   }
 
   @keyframes animate{
@@ -41,9 +42,10 @@ img {
     -webkit-transform: translate(-50%, -50%);
     animation: fadeIn 1000ms ease;
     -webkit-animation: fadeIn 1000ms ease;
-    
+
   }
-  
+
+
   h1 {
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
