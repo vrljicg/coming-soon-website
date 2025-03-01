@@ -34,64 +34,90 @@ img {
     
   }
   
-  .wrapper {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    animation: fadeIn 1000ms ease;
-    -webkit-animation: fadeIn 1000ms ease;
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
 
-  }
+}
 
+.button{
+  color: #00091B;
+  background: #fff;
+  height: 15px;
+  width: 15px;
+  padding: 15px;
+  margin: 0 0px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  transition: all 200ms ease;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+  
+h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 200;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+}
+  
+.dot {
+  color: #6c47ff;
+}
 
-  h1 {
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 0;
-    line-height: 1;
-    font-weight: 700;
-    text-align: center;
-  }
+p {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
   
-  .dot {
-    color: #6c47ff;
-  }
+}
+
+.icons {
+  text-align: center;
   
-  p {
-    text-align: center;
-    margin: 18px;
-    font-family: 'Muli', sans-serif;
-    font-weight: normal;
-    
-  }
+}
+
+.icons i {
+  color: #00091B;
+  background: #fff;
+  height: 15px;
+  width: 15px;
+  padding: 13px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  transition: all 200ms ease;
+  text-decoration: none;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.icons i:hover, .icons i:active {
+  color: #fff;
+  background: none;
+  cursor: pointer !important;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  text-decoration: none;
   
-  .icons {
-    text-align: center;
-    
-  }
+}
+
+.button:hover, .button:active {
+  color: #fff;
+  background: none;
+  cursor: pointer !important;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  text-decoration: none;
   
-  .icons i {
-    color: #00091B;
-    background: #fff;
-    height: 15px;
-    width: 15px;
-    padding: 13px;
-    margin: 0 10px;
-    border-radius: 50px;
-    border: 2px solid #fff;
-    transition: all 200ms ease;
-    text-decoration: none;
-    position: relative;
-  }
-  
-  .icons i:hover, .icons i:active {
-    color: #fff;
-    background: none;
-    cursor: pointer !important;
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    text-decoration: none;
-    
-  }
+}
